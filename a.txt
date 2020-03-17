@@ -10,3 +10,7 @@ console.log("Increased Pressure to: ", a);
 function add(){
 	printf(a+b);
 }
+
+function subtract(){
+	printf(a-b);
+}
