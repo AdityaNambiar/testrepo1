@@ -10,6 +10,7 @@ console.log("Increased Pressure to: ", a);
 function multiply(a,b){
 	printf("mul: ",a*b);
 	// The above line prints multiplication result
+	mul = mul * 0.5;
 }
 
 function add(){
