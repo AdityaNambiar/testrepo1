@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is Aditya's change
 
 var a = 0;
@@ -6,7 +7,9 @@ function increasePressure(a) {
 	a = a + 0.5;
 }
 console.log("Increased Pressure to: ", a);
-
+=======
+This is Raj's change
 function add(){
 	printf(a+b);
 }
+>>>>>>> 923e351cca03b6f38f39587808dd10870e4d7eb5
