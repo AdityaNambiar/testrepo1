@@ -4,6 +4,8 @@
 int add(); // Function declaration
 int main() {
 	// Comment above printf()
+	
+	printf(a-b);
 	scanf(a);
 	return 0;
 }
