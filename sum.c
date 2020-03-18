@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <conio.h> 
+// Fast-forward vs non-fast-forward: https://confluence.atlassian.com/bitbucket/git-fast-forwards-and-branch-management-329977726.html
 int main() {
 	printf("sum: ",a+b);
 	return 0;
@@ -23,5 +24,5 @@ int main() {
 /*
 	I have updated Line20 and Line12 (which already had some content) so lets see if it generates a merge conflict.
 	Expected Output: 'No-Change | Change' result should apply. A fast-forward merge of changes coming from remote into local repo.
-	Obtained output: ...
+	Obtained output: YES. It performed a fast-forward merge on 'git merge'. And the reason it did NOT generate a merge-conflict was that this is not a 'Change | Change' situation.
 */
