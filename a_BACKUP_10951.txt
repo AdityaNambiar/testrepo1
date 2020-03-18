@@ -7,19 +7,25 @@ function increasePressure(a) {
 }
 console.log("Increased Pressure to: ", a);
 
+function multiply(a,b){
+	printf("mul: ",a*b);
+	// The above line prints multiplication result
+	mul = mul * 0.5;
+}
+
 function add(){
 	printf(a+b);
+	printf("A  and B added")
 }
 
 function subtract(){
 	printf(a-b);
 }
 
+<<<<<<< HEAD
+=======
 function multiply(a,b){
 	printf("mul: ",a*b);
 
 }
-
-function div(a,b){
-	printf(a/b);
-}
+>>>>>>> 445512da9d31cdbbae2f4f73cd981956f0582478
