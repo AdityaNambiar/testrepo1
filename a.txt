@@ -20,3 +20,7 @@ function multiply(a,b){
 	printf("mul: ",a*b);
 
 }
+
+function div(a,b){
+	printf(a/b);
+}
