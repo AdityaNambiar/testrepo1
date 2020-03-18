@@ -2,10 +2,10 @@
 #include <conio.h> 
 // Fast-forward vs non-fast-forward: https://confluence.atlassian.com/bitbucket/git-fast-forwards-and-branch-management-329977726.html
 int main() {
-	printf("sum: ",a+b);
+	printf("sum: ",a++); // Changed a+b to a++
 	return 0;
 }
-
+Changes from remote repo on line 8.
 /* 
 	This is a new local change, nothing changed remoted. 'Change | No-Change' result should apply. This means 
 	remote should accept my change while it does not have anything. The output should be a fast-forward merge 	
