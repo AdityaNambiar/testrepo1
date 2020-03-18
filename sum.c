@@ -3,7 +3,9 @@
 // Fast-forward vs non-fast-forward: https://confluence.atlassian.com/bitbucket/git-fast-forwards-and-branch-management-329977726.html
 int add(); // Function declaration
 int main() {
+	// Comment above printf()
 	printf("sum: ",a++); // Changed a+b to a++
+	scanf(a);
 	return 0;
 }
 Changes from local repo on line 8.
