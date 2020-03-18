@@ -11,10 +11,6 @@ function add(){
 	printf(a+b);
 }
 
-function subtract(){
-	printf(a-b);
-}
-
 function multiply(a,b){
 	printf("mul: ",a*b);
 
