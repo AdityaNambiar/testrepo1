@@ -5,11 +5,7 @@ int main() {
 	printf("sum: ",a++); // Changed a+b to a++
 	return 0;
 }
-<<<<<<< HEAD
 Changes from local repo on line 8.
-=======
-Changes from remote repo on line 8.
->>>>>>> origin/master
 /* 
 	This is a new local change, nothing changed remoted. 'Change | No-Change' result should apply. This means 
 	remote should accept my change while it does not have anything. The output should be a fast-forward merge 	
