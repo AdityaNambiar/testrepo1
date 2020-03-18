@@ -6,7 +6,7 @@ int main() {
 	// New Comment - func with 6 lines
 	// Comment above printf()
 	sajdbasjdkajdbskj
-	print(a-b);
+	printLocal(a-b);
 	scanf(a);
 	return 0;
 }
