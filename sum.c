@@ -10,7 +10,7 @@ int main() {
 	scanf(a);
 	return 0;
 }
-Changes from local repo on line 8.
+Changes from remote repo on line 8.
 /* 
 	This is a new local change, nothing changed remoted. 'Change | No-Change' result should apply. This means 
 	remote should accept my change while it does not have anything. The output should be a fast-forward merge 	
@@ -30,11 +30,4 @@ Changes from local repo on line 8.
 	I have updated Line20 and Line12 (which already had some content) so lets see if it generates a merge conflict.
 	Expected Output: 'No-Change | Change' result should apply. A fast-forward merge of changes coming from remote into local repo.
 	Obtained output: YES. It performed a fast-forward merge on 'git merge'. And the reason it did NOT generate a merge-conflict was that this is not a 'Change | Change' situation.
-*/
-
-/*
-	< This comment is a clean append, nothing that I am conflicting with remotely >
-	Adding a different change locally and different change remotely.
-	Expected output: Merge conflict on pull. I am commiting remote first and then pulling it locally. 
-	Obtained output: ...
 */
