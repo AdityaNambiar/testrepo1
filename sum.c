@@ -4,7 +4,7 @@
 int add(); // Function declaration
 int main() {
 	// Comment above printf()
-	printf("sum: ",a+b); // Changed a+b
+	printf("sum: ",a-b); // Changed a+b
 	scanf(a);
 	return 0;
 }
