@@ -9,14 +9,13 @@ console.log("Increased Pressure to: ", a);
 
 function add(){
 	printf(a+b);
-	printf("A  and B added")
-}
-
-function subtract(){
-	printf(a-b);
 }
 
 function multiply(a,b){
 	printf("mul: ",a*b);
 
+}
+
+function div(a,b){
+	printf(a/b);
 }
