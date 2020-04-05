@@ -12,8 +12,7 @@ function add(){
 }
 
 function multiply(a,b){
-	printf("mul: ",a*b);
-
+	printf("mul: ",a*b); // THIS IS A NEW COMMENT FOR MULTIPLCIATION
 }
 
 function div(a,b){
