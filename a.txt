@@ -1,5 +1,5 @@
 This is Aditya's change
-
+HELLO ADITYA NAMBIAR 
 var a = 0;
 console.log("Initial Pressure was: ", a);
 function increasePressure(a) {
@@ -12,7 +12,7 @@ function add(){
 }
 
 function multiply(a,b){
-	printf("mul: ",a*b);
+	printf("mul: ",a*b); // FIXED MASTER's TYPO - It's MULTIPLICATION
 
 }
 
