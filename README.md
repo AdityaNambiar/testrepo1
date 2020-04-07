@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # testrepo1
-NEW CHANGE FROM MASTER (KEPT MASTER)
+NEW CHANGE FROM MASTER 
 =======
 HELLO
 >>>>>>> master
