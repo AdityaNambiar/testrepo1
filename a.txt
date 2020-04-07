@@ -22,3 +22,4 @@ function div(a,b){
 
 
 *NEW CHANGES on remote master (while some collaborator is going to push new changes on master)*
+Conflicting change in a.txt
